@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC SIGN IN</title>
+    <link rel="stylesheet" href="index_style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="loginForm">
+
+
+        <!-- signin header-------------- -->
+        <div class="signin-header">
+
+            <a href="index.html">
+                <div id="kfc-logo" class="kfc-image-logo mt-15">
+
+                    <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="">
+            </a>
+        </div>
+        <div class="heading-title">Let's Sign In or Create account with your <br> phone number!</div>
+
+    </div>
+    <hr>
+
+    <!-- sign in section----------- -->
+    <div class="signin-section">
+        <form class="main-signin-section">
+            <p>UserName</p>
+            <input class="input-data" type="text" id="username" placeholder="UserName">
+            <p>Email</p>
+            <input class="input-data" type="text" id="email" placeholder="Email Address">
+            <p>Password</p>
+            <input class="input-data" type="password" id="password" placeholder="Make a Password">
+            <p>Number</p>
+            <input class="input-data" type="number" id="number" placeholder="Contact Number">
+            <br>
+
+            <input type="checkbox" id="terms">
+            <label for="terms" class="terms-condition">By "logging in KFC", you agree to our <u><b>Privacy
+                        Policy</b></u> and <u><b>Terms & Conditions.</b></u>
+            </label>
+
+
+            <input type="submit" name="" id="creat-account" value="Sign Up">
+
+        </form>
+
+    </div>
+
+    <!-- Or skip continew button div-------------- */ -->
+    <div class="or-skip-div">
+        <div class="or-button">
+            <div class="or-left"></div>
+            <div class="or-center">or</div>
+            <div class="or-right"></div>
+        </div>
+
+        <div class="skip-continew-button-div">
+            <button class="skip-continew-button">Skip, Continue As Guest</button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+
+    document.querySelector("form").addEventListener("submit", formSubmit);
+    var userStack = [];
+    function formSubmit(event){
+        event.preventDefault();
+        var name = document.querySelector("#username").value;
+        var email = document.querySelector("#email").value;4
+        var password = document.querySelector("#password").value;
+        var number = document.querySelector("#number").value;
+
+        var userData = {
+            nameData : name,
+            emailData : email,
+            passData : password,
+            numData : number,
+        };
+        
+        localStorage.setItem("user", JSON.stringify(userData));
+        userStack.push(userData);
+        localStorage.setItem("userDataBase", JSON.stringify(userStack));
+        alert("Welcome you're SignUp is Complete.");
+        window.location.href = "index.html";
+    };
+
+
+</script>

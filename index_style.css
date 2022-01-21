@@ -1,0 +1,952 @@
+  
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* navbar css-============================================= */
+.navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+}
+.left-side-item{
+
+    text-align: center;
+    width: 20%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-side-item {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    
+}
+.signin-button{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+
+}
+.left-item{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.nav-item-2 {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+/* ================================= */
+
+/* signup css---------------------------------------------------- */
+#loginForm {
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+
+/* sidinin header section-------- */
+#loginForm>.signin-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
+
+.signin-header>.heading-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    margin-top: 15px;
+
+
+}
+
+/* sign in section------------- */
+
+.signin-section {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.main-signin-section>p {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 17px;
+    color: rgb(189, 6, 6);
+
+}
+
+.main-signin-section>.input-data {
+    width: 80%;
+    line-height: 25px;
+    border: 1px solid black;
+    margin-bottom: 14px;
+}
+
+
+.terms-condition {
+    font-size: 11px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+#creat-account {
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 200px;
+    background-color: #202124;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    margin: 20px;
+
+}
+
+/* skip continew button div-------------- */
+.or-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.or-button>.or-left {
+    width: 45%;
+    border-top: 1px solid #202124;
+    margin-top: 10px;
+    opacity: 0.4;
+}
+
+.or-button>.or-center {
+    width: 3%;
+
+}
+
+.or-button>.or-right {
+    width: 45%;
+    border-top: 1px solid #202124;
+    margin-top: 10px;
+    opacity: 0.4;
+}
+
+.skip-continew-button-div {
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.skip-continew-button {
+    width: 100%;
+    background-color: #fff;
+    color: #202124;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 66px;
+    border: 1px solid #202124;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 15px;
+    border: 1px solid #202124;
+   
+
+}
+
+.skip-continew-button:hover {
+    background-color: #202124;
+    color: white;
+}
+
+  /* =---------------------------------------------==============-------- */
+
+    /*  Add to cart -========================================================*/
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 900px 400px;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+    grid-gap: 20px;
+}
+
+.itemsummary {
+    padding: 10px;
+    background-color: white;
+
+}
+
+
+.order {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.order>p {
+    padding: 0px 10px;
+    
+}
+
+.pricesummary {
+    background-color: white;
+    padding: 20px;
+}
+
+#TS {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    background-Color: azure;
+}
+
+#TotalSaving {
+    color: red;
+}
+
+#Discount {
+    color: red;
+}
+
+#btn1 {
+    color: white;
+    background-color: red;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#btn1:hover{
+   
+    cursor: pointer;
+}
+
+#btn2 {
+    color: white;
+    background-color: darkslategrey;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#bg {
+    background-color: whitesmoke;
+}
+
+
+
+.row {
+    border: 0.5px solid black;
+    display: grid;
+    height: 100px;
+    grid-template-columns: 10% 30% 30% 20%;
+    grid-gap: 2%;
+}
+
+.row>div {
+    margin-right: 10px;
+}
+
+#box1 {
+    margin-top: -10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+
+.row>div>h4 {
+    color: rgb(216, 16, 16);
+}
+
+.row>div:nth-child(1) {
+    height: 100%;
+    padding: 20px 5px;
+    width: 10%;
+}
+
+.row>div:nth-child(2) {
+    height: 100%;
+    width: 70%;
+    text-align: left;
+    font-weight: 600;
+    
+}
+
+.row>div:nth-child(3) {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+.row>div:nth-child(3) > p {
+    padding-top: 17px;
+}
+.row>div:nth-child(4){
+    font-weight: 600;
+    padding-top: 17px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#btn3 {
+    color: black;
+    font-weight: 600;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    border: 3px solid red;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#btn3:hover{
+    background-color: #202124;
+    color: white;
+}
+
+
+#bin {
+    height: 30px;
+    width: 30px;
+}
+
+.row>div:nth-child(4) {
+    height: 100%;
+    text-align: right;
+}
+
+.row>div:nth-child(4)>button {
+    height: 30px;
+    width: 30px;
+}
+
+
+    /* =========================================================================== */
+  /* header-content-section ---------------- */
+  .header-content {
+    background-color: rgb(27, 23, 23);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-text {
+    color: white;
+    margin-right: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
+
+.header-order-button {
+    padding: 12px 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.header-order-button:hover{
+    background-color: white;
+    color: red;
+}
+
+/* sliding-section ------------------------- */
+.sliding-section {
+    height: 400px;
+    width: 100%;
+   
+
+}
+
+/* welcome-to-kfc-section ------------------ */
+.welcome-to-kfc {
+    height: 130px;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 150px;
+}
+
+.strip-lines {
+    border-left: 7px solid rgb(211, 0, 0);
+    margin-left: 5px;
+}
+
+   
+
+.welcome-greeting-text {
+    font-size: 35px;
+    font-family: fantasy;
+    margin-left: 60px;
+    padding-top: 27px;
+    color: #202124;
+   
+
+}
+
+/* browse-categories-section --------------- */
+.browse-categories-section {
+    display: flex;
+    margin-left: 270px;
+    margin-top: 45px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.browse-categories-text {
+    font-size: 30px;
+    font-family: fantasy;
+    color: #202124;
+}
+
+.browse-categories-line {
+    border-top: 2px solid #e3e3e3;
+    width: 65%;
+    margin-left: 35px;
+
+}
+
+/* categories-cards-section---------------------- */
+.categories-cards {
+    width: 65%;
+    margin-left: 270px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+.menu-card {
+    width: 17.5vw;
+    height: 17.5vw;
+    background-color: #f8f7f5;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    /* box-shadow: rgba(0.24, 0, 0, 0.24) 0px 3px 8px; */
+    opacity: 100%;
+
+}
+.menu-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.menu-text {
+  color: #202124;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 15px;
+  text-transform: uppercase;
+
+}
+
+/* offers & deals section --------------------- */
+
+
+
+
+.offer-deals-section{
+    width: 100%;
+    height: 700px;
+    background-color: #202124;
+    
+}
+.offer-deals-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 85px;
+    font-size: 30px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.offer-deals-heading:hover{
+    text-decoration: underline;
+}
+.offer-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+  
+}
+.offer-card{
+    height: 398px;
+    width: 310px;
+    position: relative;
+    background-color: #f8f7f5;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 25px;
+   
+
+}
+
+.offer-text > div{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 37px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.offer-text > p{
+    margin: 0px;
+    height: 48px;
+    text-align: center;
+    font-weight: 400;
+    color: #202124;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    box-sizing: border-box;
+    
+
+}
+.offer-card-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.view-details-btn{
+    color: black;
+    font-family: sans-serif;
+    
+}
+.offer-card-bottom > .redeem-buttom{
+    padding: 11px 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    border-radius: 200px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.offer-card-bottom > .redeem-buttom:hover{
+    background-color: #202124;
+    color: white;
+}
+
+
+
+/* footer ------------------------==============-*/
+
+.kfc-header-logo{
+ padding-top: 50px;
+}
+
+
+.footer{
+    padding-top: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202124;
+}
+.kfc-category-content{
+    display: flex;
+    justify-content: space-between;
+    color: #f8f7f5;
+    cursor: pointer;
+    
+}
+
+.kfc-category-content li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+}
+.kfc-category-content li:hover{
+    text-decoration: underline;
+}
+.location-link{
+    padding-top: 60px;
+}
+.location-link-1{
+    
+    color: white;
+}
+.app-link{
+    padding-top: 50px;
+}
+
+
+/* footer-end ------------------------ */
+
+.footer-end{
+    height: 100px;
+    background-color: #202124;
+    display: flex;
+    justify-content: space-evenly;
+    color: #dbdbdb;
+}
+
+
+
+/* ---------- menu styling===================================================== */
+
+#menu-page{
+    width: 100%;
+    display: flex;
+
+}
+
+/* left side menu page -------------*/
+.left-menu-section{
+    width: 28%;
+    background-color: #fff;
+    height: 100vh;
+
+}
+.menu-container{
+    padding-left: 100px;
+}
+.left-menu-section > .menu-container{
+    
+    width: 18vw;
+    position: sticky;
+
+
+}
+.menu-container > .kfc-menu{
+    font-weight: 700;
+    padding-bottom: 1vw;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+.outer-ul > .list-menu{
+    font-weight: 400;
+    color: #202124;
+    cursor: text;
+    line-height: 24px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+.outer-ul > .list-menu >a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+.list-menu >a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* right side menu section-------- */
+
+.right-menu-section {
+    position: relative;
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 6.3%;
+
+    
+}
+ 
+/*  search bar section-------- */
+
+.search-section {
+    
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #202124;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.menu-search {
+    font-weight: 500;
+    color: #212529;
+    text-align: left;
+    font-size: 1rem;
+    
+
+
+}
+
+.search-input{
+    border-radius: 200px;
+    line-height: 25px;
+
+}
+
+
+/* -----decemberFest sec---------- */
+.decemberFest{
+    height: 1600px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    border-radius: 16px;
+    background-color: #e3e3e3;
+    
+
+}
+
+
+.decemberFest > .head-decemberFest{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    
+
+
+
+}
+
+/* card product -----------------*/
+
+
+ 
+.december-card-section{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 470px 470px 470px;
+    grid-gap: 10px;
+    
+}    
+
+
+/* ================================================== */
+.card-degine{
+    width: 300;
+    height: 450px; 
+    font-family: 'oswald', sans-serif;
+   
+    background-color: #fff;
+    box-shadow: 0 4px 7px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin-right: 1%;
+    margin-bottom: 3rem;
+    margin-left: 13px;
+
+}
+
+.card-degine > .card-image {
+    width: 100%;
+    height: 210px;
+    margin-bottom: 10px;
+  
+   
+}
+
+.card-degine > .card-data {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.card-data > .product-name{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: 'oswald', sans-serif;
+    color: #202124;
+    letter-spacing: -.1px;
+}
+.card-data > .non-veg {
+   margin-left: 8px;
+   font-size: 13px;
+   font-family: 'oswald', sans-serif;
+   margin-bottom: 15px;
+}
+.card-data > .product-description {
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -.1px;
+    line-height: 24px;
+    font-size: 14px;
+
+}
+
+/* =----------add to cart btn --------- */
+
+.btn-add-cart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.add-cart-btn {
+    display: flex;
+    justify-content: center; 
+    background-color: #e4002b;
+    color: #fff;
+    border: 1px solid #e4002b;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 200px;
+    padding: 9px 70px;
+    
+
+
+}
+
+
+
+/* payment - cheakout-page ========================== */
+
+.payment-page {
+            
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.payment-page>.total-amount {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+
+.payment-page>h2:nth-child(2) {
+    padding-left: 25px;
+}
+
+.payment-card-details>input:nth-child(1) {
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+
+.payment-card-details>input:nth-child(2) {
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.payment-card-details>input:nth-child(3){
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.payment-card-details>input:nth-child(4){
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.button-pay{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.pay-button{
+    width: 85%;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: green;
+    font-size: large;
+    border: 2px solid green;
+
+}
+
+
+
+/* ================================================== */
+
+
+
+
+

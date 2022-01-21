@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patment</title>
+    <link rel="stylesheet" href="index_style.css">
+  
+</head>
+
+<body>
+    <div class="payment-page">
+        <h2 class="total-amount">
+            TOTAL AMOUNT = <span id="totall">0</span>
+        </h2>
+        <h2>Payment</h2>
+        <div class="payment-card-details">
+            <input type="text" placeholder="Name on Card*">
+            <input type="text" placeholder="Card Number*">
+            <input type="text" placeholder="Expiry Date*">
+            <input type="text" placeholder="Security Code*">
+        </div>
+        <div class="button-pay">
+            <button onclick="aleryyy()" class="pay-button">PAY</button>
+        </div>
+        
+    </div>
+
+    
+</body>
+
+</html>
+<script src="helper.js" >
+</script>
+<script>
+    var [total, savings] = calculatePrices()
+    document.getElementById('totall').innerText=total;
+    function aleryyy(){     
+        window.location.href='otp.html';
+    }
+</script>
