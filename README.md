@@ -2,7 +2,7 @@ have you ever visited KFC? No!, now you don’t have to.
 
 I brought KFC at your doorstep, see I‘m telling you.
 
-
+<img src="https://miro.medium.com/max/875/1*P1gjvTe2EKzltWLNS0B7xw.png">
 
 KFC is one of biggest restaurant chain in the world, yeah it is true. so I made a clone of it’s original website. here I’m gonna tell you about making of clone of KFC.co.in, so are you ready? don’t you!
 
